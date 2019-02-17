@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <title>Wadidaw</title>
+</head>
+
+<body>
+  <header>
+    <div class="tribun desktop-only">
+      <div class="container">
+        <div class="tribun--wrapper">
+          <img class="tribun--logo" src="images/tribunnews.png" alt="Logo Tribunnews.com">
+        </div>
+      </div>
+    </div>
+    <nav>
+      <div class="container">
+        <div class="nav--wrapper">
+          <img src="images/logo.png" alt="">
+          <div class="desktop-only">
+            <input class="nav--search-input" type="text" placeholder="Search...">
+            <input class="nav--search-input---button" type="submit" value="">
+          </div>
+          <button onclick="toggleSearch()" class="nav--search mobile-tablet-only">
+            <img src="images/search.png">
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="search-mobile-wrapper mobile-tablet-only">
+      <input id="search-mobile" class="nav--search-input---mobile" type="text" placeholder="Kata kunci pencarian...">
+    </div>
+  </header>
+
+  <section>
+    <div class="ads-top mobile-only">
+      <img class="img" src="images/topBanner.jpg">
+    </div>
+    <div class="ads-top container">
+      <img class="img" src="images/billboard1.png">
+    </div>
+    <div class="ads-side ads--left">
+      <img class="img" src="images/skin.png">
+    </div>
+    <div class="ads-side ads--right">
+      <img class="img" src="images/skin.png">
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="6 col">
+        <div class="news-card" style="background-image: url('images/1.jpg')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card--inner">
+            <div class="news-card--inner---border"></div>
+            <p class="news-card--inner---header">
+              Maryellis Bunn, Gadis Cantik Dibalik Kesuksesan 'Museum of Ice Cream'
+            </p>
+            <p class="news-card--inner--footer">
+              Selasa, 30 Oktober 2018
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="6 col">
+        <div class="news-card" style="background-image: url('https://source.unsplash.com/user/erondu')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card--inner">
+            <div class="news-card--inner---border"></div>
+            <p class="news-card--inner---header">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+            <p class="news-card--inner--footer">
+              Selasa, 30 Oktober 2018
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row desktop-only">
+      <div class="4 col">
+        <div class="news-card news-card-sm" style="background-image: url('https://source.unsplash.com/user/vanschneider')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card-sm--inner">
+            <div class="news-card-sm--inner---border"></div>
+            <p class="news-card-sm--inner---header"">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+            <p class="
+              news-card-sm--inner--footer">
+              Kamis, 25 Oktober 2018
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="4 col">
+        <div class="news-card news-card-sm" style="background-image: url('https://source.unsplash.com/user/d_che')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card-sm--inner">
+            <div class="news-card-sm--inner---border"></div>
+            <p class="news-card-sm--inner---header"">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+            <p class="
+              news-card-sm--inner--footer">
+              Rabu, 24 Oktober 2018
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="4 col">
+        <div class="news-card news-card-sm" style="background-image: url('https://source.unsplash.com/user/joshhild')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card-sm--inner">
+            <div class="news-card-sm--inner---border"></div>
+            <p class="news-card-sm--inner---header">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+            <p class="news-card-sm--inner--footer">
+              Kamis, 25 Oktober 2018
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="6 col">
+        <div class="news-card" style="background-image: url('https://source.unsplash.com/user/nico1983')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card--inner">
+            <div class="news-card--inner---border"></div>
+            <p class="news-card--inner---header">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+            <p class="news-card--inner--footer">
+              Jumat, 24 Oktober 2018
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="6 col">
+        <div class="news-card" style="background-image: url('https://source.unsplash.com/user/heysupersimi')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card--inner">
+            <div class="news-card--inner---border"></div>
+            <p class="news-card--inner---header">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+            <p class="news-card--inner--footer">
+              Senin, 13 Agustus 2018
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row desktop-only">
+      <div class="4 col">
+        <div class="news-card news-card-sm" style="background-image: url('https://source.unsplash.com/user/mischievous_penguins')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card-sm--inner">
+            <div class="news-card-sm--inner---border"></div>
+            <p class="news-card-sm--inner---header"">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              </p>
+              <p class="
+              news-card-sm--inner--footer">
+              Selasa, 7 Agustus 2018
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="4 col">
+        <div class="news-card news-card-sm" style="background-image: url('https://source.unsplash.com/user/dnovac')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card-sm--inner">
+            <div class="news-card-sm--inner---border"></div>
+            <p class="news-card-sm--inner---header"">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              </p>
+              <p class="
+              news-card-sm--inner--footer">
+              Senin, 13 Oktober 2018
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="4 col">
+        <div class="news-card news-card-sm" style="background-image: url('https://source.unsplash.com/user/liaoweimeifang')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card-sm--inner">
+            <div class="news-card-sm--inner---border"></div>
+            <p class="news-card-sm--inner---header">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+            <p class="news-card-sm--inner--footer">
+              Rabu, 8 Oktober 2018
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="6 col">
+        <div class="news-card" style="background-image: url('https://source.unsplash.com/user/isco_me')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card--inner">
+            <div class="news-card--inner---border"></div>
+            <p class="news-card--inner---header">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+            <p class="news-card--inner--footer">
+              Selasa, 7 Agustus 2018
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="6 col">
+        <div class="news-card" style="background-image: url('https://source.unsplash.com/user/bradpouncey')">
+          <div class="news-card--overlay"></div>
+          <div class="news-card--inner">
+            <div class="news-card--inner---border"></div>
+            <p class="news-card--inner---header">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+            <p class="news-card--inner--footer">
+              Senin, 6 Agustus 2018
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="desktop-only center" style="margin: 2rem 0 4rem 0">
+    <ul class="pagination">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>Older <img src="images/arrow-right.png"></li>
+    </ul>
+  </div>
+
+  <div class="mobile-only center" style="margin: 3rem 0 4rem 0;">
+    <a class="btn" href="#">Previous</a>
+  </div>
+
+  <footer>
+    <p>Copyright &copy; 2019, Tribunnews</p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
